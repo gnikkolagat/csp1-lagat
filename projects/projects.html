@@ -6,6 +6,10 @@
 	<title>Nikko Lagat | Projects</title>
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- google fonts css -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Rubik&family=Saira&display=swap" rel="stylesheet">
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="../index.css">
 </head>
@@ -24,21 +28,21 @@
 	        	<a class="nav-link" href="../index.html">Home</a>
 	      		</li>
 	      		<li class="nav-item">
-	        	<a class="nav-link" href="./projects.html">Projects</a>
+	        	<a class="nav-link" href="#t-architectural">Architectural</a>
 	      		</li>
 	      		<li class="nav-item">
-	        	<a class="nav-link" href="#tools">Tools</a>
+	        	<a class="nav-link" href="#t-photography">Photography</a>
 	      		</li>
 	      		<li class="nav-item">
-	        	<a class="nav-link" href="#contacts">Contacts</a>
-	      </li>
-	    </ul>
-	  </div>
+	        	<a class="nav-link" href="../contact/contacts.html">Contacts</a>
+	      		</li>
+	    	</ul>
+	  	</div>
 	</nav>
-	<div class="container-fluid">
+	<div class="container-fluid" id="projects">
 		<h1 class="text-center py-5">Projects</h1>
-		<h2 class="text-center">Architectural Projects</h2>
-		<div class="card-deck my-5 justify-content-center" id="projects">
+		<h2 class="text-center" id="t-architectural">Architectural Projects</h2>
+		<div class="card-deck my-5 justify-content-center">
 			<div class="card col-md-3">
 				<img src="../images/project-1.jpg" class="card-img-top" alt="Architectural Project 1">
 				<div class="card-body">
@@ -70,9 +74,9 @@
 				</div>
 			</div>
 		</div>
-		<h2 class="text-center pb-5">Photography Samples</h2>
+		<h2 class="text-center pt-5 pb-3" id="t-photography">Photography Samples</h2>
 		<div class="row">
-			<div class="col-12 col-md-8 mx-auto">
+			<div class="col-12 col-md-8 mx-auto pb-4">
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				  	<ol class="carousel-indicators">
 				    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -110,11 +114,11 @@
 			</div>
 		</div>
 	</div>
-	<footer class="py-3">
-		<p class="text-center">Nikko Lagat</p>
-		<p class="text-center">
-			&copy; All Rights Reserved 2021
-		</p>
+	<footer class="pt-2">
+			<p>Nikko Lagat</p>
+			<p>
+				&copy; All Rights Reserved 2021
+			</p>
 	</footer>
 	<!-- js dependencies -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

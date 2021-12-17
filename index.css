@@ -1,3 +1,16 @@
+
+body {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background-color: #FFE1E5;
 }
@@ -39,12 +52,26 @@ nav li {
 }
 
 .container1 img {
-  height: 50vh;
-  width: 50%;
+  max-width: 100%;
+  width: 250px;
+  min-width: 100px;
+  height: auto;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
   border-width: 2px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .content {
@@ -52,3 +79,31 @@ nav li {
   z-index: 10;
   padding-top: 50px;
 }
+
+
+#tools img {
+  height: 60px;
+  width: 60px;
+}
+
+#tools1 img {
+  height: 80px;
+  width: 80px;
+}
+
+#tools2 img {
+  height: 80px;
+  width: 80px;
+}
+
+#contacts img {
+  height: 40px;
+  width: 40px;
+}
+
+#gmap {
+  height: 60vh;
+  width: 100%;
+}
+
+
