@@ -86,12 +86,13 @@ h3 {
   width: 60px;
 }
 
-#tools1 img {
-  height: 80px;
-  width: 80px;
+#tools div {
+  background-color: #FFE1E5;
+  border-radius: 20px;
 }
 
-#tools2 img {
+
+#tools1 img {
   height: 80px;
   width: 80px;
 }
