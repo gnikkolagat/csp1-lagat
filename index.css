@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin-top: 50px;
+}
 
 body {
   background-image: url(images/background.jpg);
@@ -32,6 +40,8 @@ nav li {
   height: 100%;
   position: relative;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 
 .container1::before {
@@ -82,19 +92,23 @@ h3 {
 
 
 #tools img {
-  height: 60px;
-  width: 60px;
+  height: 150px;
+  width: 150px;
 }
 
 #tools div {
-  background-color: #FFE1E5;
+  background-color: #FFAFBA;
   border-radius: 20px;
 }
 
 
 #tools1 img {
-  height: 80px;
-  width: 80px;
+  height: 150px;
+  width: 150px;
+}
+
+#contacts {
+  height: 90vh;
 }
 
 #contacts img {
@@ -107,4 +121,7 @@ h3 {
   width: 100%;
 }
 
-
+footer {
+  background-color: #7D4801;
+  color: white;
+}
